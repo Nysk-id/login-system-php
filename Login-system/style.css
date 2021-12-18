@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap');
+
+body {
+	background: #292929;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 95vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: 'poppins';
+	box-sizing: border-box;
+}
+
+form {
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #292929;
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	color: #fff;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	font-size: 18px;
+	align-items: center;
+	width: 100%;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+div{
+	color: #292929;
+	font-size: 18px;
+}
+nav{
+	display: inline-flex;
+}
+.frame{
+	position: absolute;
+	width: 1300px;
+	height: 560px;
+	left: 64px;
+	top: 125px;
+	padding-left: 15px;
+	border-radius: 15px;
+	background-color: #C4C4C4;
+	color: #292929;
+}
+.logo{
+	position: absolute;
+	width: 198px;
+	height: 69px;
+	left: 51px;
+	top: 32px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 60px;
+	color: #FFFFFF;
+	text-decoration: none;
+	color: #fff;
+}
+.logo:hover{
+	opacity: .7;
+}
+.logout{
+	position: absolute;
+	width: 121px;
+	height: 35px;
+	left: 1248px;
+	top: 48px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 37px;
+	border-radius: 10px;
+	background-color: #555;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+.logout:hover{
+	opacity: .7;
+}
+.download{
+	font-size: 40px;
+	margin-left: 20px;
+	text-decoration: none;
+	color: #555;
+}
+.download:hover{
+	opacity: .7;
+}
+h1{
+	text-align: left;
+	color: #292929;
+}
+.good{
+	font-size: 22px;
+	font-weight: 800;
+}
+.head{
+	color: rgb(43, 43, 43);
+	font-size: 23px;
+}
+

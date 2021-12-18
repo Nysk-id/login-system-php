@@ -1,0 +1,244 @@
+
+
+/* Frame */
+
+
+position: absolute;
+width: 1274px;
+height: 654px;
+left: 64px;
+top: 159px;
+
+
+
+/* welcome, */
+
+
+position: absolute;
+width: 398px;
+height: 62px;
+left: 90px;
+top: 183px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 60px;
+
+color: #000000;
+
+
+
+/* welcometext */
+
+
+position: absolute;
+width: 584px;
+height: 46px;
+left: 98px;
+top: 253px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 37px;
+
+color: #000000;
+
+
+
+/* login */
+
+
+position: absolute;
+width: 408px;
+height: 46px;
+left: 98px;
+top: 373px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 37px;
+
+color: #000000;
+
+
+
+/* web */
+
+
+position: absolute;
+width: 446px;
+height: 46px;
+left: 98px;
+top: 483px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 37px;
+
+color: #000000;
+
+
+
+/* login */
+
+
+position: absolute;
+width: 408px;
+height: 46px;
+left: 98px;
+top: 428px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 37px;
+
+color: #000000;
+
+
+
+/* login */
+
+
+position: absolute;
+width: 408px;
+height: 46px;
+left: 98px;
+top: 538px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 37px;
+
+color: #000000;
+
+
+
+/* container-logout */
+
+
+position: absolute;
+width: 157px;
+height: 53px;
+left: 1228px;
+top: 42px;
+
+background: #C4C4C4;
+border-radius: 15px;
+
+
+/* LogOut */
+
+
+position: absolute;
+width: 121px;
+height: 35px;
+left: 1248px;
+top: 48px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 37px;
+
+color: #000000;
+
+
+
+/* Nysk.id */
+
+
+position: absolute;
+width: 198px;
+height: 69px;
+left: 51px;
+top: 32px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 60px;
+
+color: #FFFFFF;
+
+
+
+/* Vector */
+
+
+position: absolute;
+left: 93.47%;
+right: 4.82%;
+top: 6.75%;
+bottom: 91.1%;
+
+background: #000000;
+
+
+/* sign-out-alt */
+
+
+position: relative;
+width: 25px;
+height: 25px;
+
+
+
+
+
+
+
+
+
+head
+    <!-- Kode menampilkan peringatan untuk mengaktifkan javascript-->
+    <div align="center">
+        <noscript>
+            <div style="position:fixed; top:0px; left:0px; z-index:3000; height:100%; width:100%; background-color:#FFFFFF">
+            <div style="font-family: Arial; font-size: 17px; background-color:#00bbf9; padding: 11pt;">Mohon aktifkan javascript pada browser untuk mengakses halaman ini!</div></div>
+        </noscript>
+    </div>
+
+    <!--Kode untuk mencegah seleksi teks, block teks dll.-->
+    <script type="text/javascript">
+        function disableSelection(e){if(typeof e.onselectstart!="undefined")e.onselectstart=function(){return false};else if(typeof e.style.MozUserSelect!="undefined")e.style.MozUserSelect="none";else e.onmousedown=function(){return false};e.style.cursor="default"}window.onload=function(){disableSelection(document.body)}
+    </script>
+
+    <!--Kode untuk mematikan fungsi klik kanan di blog-->
+    <script type="text/javascript">
+        function mousedwn(e){try{if(event.button==2||event.button==3)return false}catch(e){if(e.which==3)return false}}document.oncontextmenu=function(){return false};document.ondragstart=function(){return false};document.onmousedown=mousedwn
+    </script>
+
+    <style type="text/css">
+        * : (input, textarea) {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+        }
+    </style>
+    <style type="text/css">
+    img {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+    }
+    </style>
+
+<!--Kode untuk mencegah shorcut keyboard, view source dll.-->
+    <script type="text/javascript">
+        window.addEventListener("keydown",function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==67||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){e.preventDefault()}});document.keypress=function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==67||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){}return false}
+    </script>
+    <script type="text/javascript">
+        document.onkeydown=function(e){e=e||window.event;if(e.keyCode==123||e.keyCode==18){return false}}
+    </script>
